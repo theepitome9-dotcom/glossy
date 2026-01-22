@@ -12,7 +12,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.vibecode.glossyquotes.4fdonu",
@@ -61,6 +61,5 @@
     }
   }
 }
-
 
 
