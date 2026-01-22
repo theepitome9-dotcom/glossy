@@ -42,14 +42,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "kotlinVersion": "1.9.23"
-          }
-        }
-      ],
+      "expo-build-properties",
       "expo-asset",
       "expo-font",
       "expo-mail-composer",
@@ -68,5 +61,6 @@
     }
   }
 }
+
 
 
