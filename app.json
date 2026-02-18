@@ -43,7 +43,14 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-build-properties",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "newArchEnabled": false
+          }
+        }
+      ],
       "expo-asset",
       "expo-font",
       "expo-mail-composer",
@@ -62,6 +69,3 @@
     }
   }
 }
-
-
-
