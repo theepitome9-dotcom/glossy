@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Glossy Quotes",
+    "slug": "glossy-quotes",
+    "scheme": "glossy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vibecode.glossyquotes.4fdonu",
+      "buildNumber": "9",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Glossy Quotes uses the camera to capture photos inside the app before you publish them.",
+        "NSPhotoLibraryUsageDescription": "Glossy Quotes accesses your photo library to let you choose media that appears in the app.",
+        "NSMicrophoneUsageDescription": "Glossy Quotes uses the microphone to record audio tracks that the app attaches to your creations.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash-image.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.glossy.paintingestimator",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-build-properties",
+      "expo-asset",
+      "expo-font",
+      "expo-mail-composer",
+      "expo-secure-store",
+      "expo-sqlite",
+      "expo-video",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "de4ec539-ec49-4112-b793-d95286f778fb"
+      }
+    }
+  }
+}
+
+
