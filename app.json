@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "Glossy Quotes",
-    "slug": "glossy-quotes",
+    "name": "Glossy",
+    "slug": "glossy",
     "scheme": "glossy",
+    "owner": "glossyq",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./icon.png",
@@ -12,7 +13,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.vibecode.glossyquotes.4fdonu",
@@ -56,10 +57,11 @@
     },
     "extra": {
       "eas": {
-        "projectId": "de4ec539-ec49-4112-b793-d95286f778fb"
+        "projectId": "edb7b13e-edac-41ba-855f-048665ac4efb"
       }
     }
   }
 }
+
 
 
