@@ -1,48 +1,28 @@
 {
   "expo": {
-    "name": "Glossy",
+    "name": "Glossy Quotes",
     "slug": "glossy",
-    "scheme": "glossy",
-    "owner": "glossyq",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./icon.png",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-image.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#ffffff"
     },
-    "newArchEnabled": false,
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.vibecode.glossyquotes.4fdonu",
-      "buildNumber": "9",
-      "infoPlist": {
-        "NSCameraUsageDescription": "Glossy Quotes uses the camera to capture photos inside the app before you publish them.",
-        "NSPhotoLibraryUsageDescription": "Glossy Quotes accesses your photo library to let you choose media that appears in the app.",
-        "NSMicrophoneUsageDescription": "Glossy Quotes uses the microphone to record audio tracks that the app attaches to your creations.",
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/splash-image.png",
-        "backgroundColor": "#000000"
-      },
-      "package": "com.glossy.paintingestimator",
-      "versionCode": 1,
-      "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "READ_MEDIA_IMAGES"
-      ]
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
     "plugins": [
+      "expo-router",
       [
         "expo-build-properties",
         {
@@ -50,22 +30,7 @@
             "newArchEnabled": false
           }
         }
-      ],
-      "expo-asset",
-      "expo-font",
-      "expo-mail-composer",
-      "expo-secure-store",
-      "expo-sqlite",
-      "expo-video",
-      "expo-web-browser"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "edb7b13e-edac-41ba-855f-048665ac4efb"
-      }
-    }
+      ]
+    ]
   }
 }
