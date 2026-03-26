@@ -1,10 +1,6 @@
 {
   "cli": {
-<<<<<<< HEAD
-    "version": "16.17.4"
-=======
     "version": ">= 16.17.4"
->>>>>>> 58221eae868fd8bae73d41fe87620bf89e8369d1
   },
   "build": {
     "development": {
@@ -36,12 +32,8 @@
         "distribution": "store"
       },
       "android": {
-<<<<<<< HEAD
         "distribution": "store",
         "buildType": "app-bundle"
-=======
-        "distribution": "store"
->>>>>>> 58221eae868fd8bae73d41fe87620bf89e8369d1
       }
     }
   },
