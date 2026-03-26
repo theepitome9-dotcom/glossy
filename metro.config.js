@@ -1,15 +1,14 @@
 const { getDefaultConfig } = require("expo/metro-config");
-<<<<<<< HEAD
 const { withNativeWind } = require("nativewind/metro");
 const { withVibecodeMetro } = require("@vibecodeapp/sdk/metro");
 
 /** @type {import('expo/metro-config').MetroConfig} */
 const config = getDefaultConfig(__dirname);
 
-// Disable Watchman for file watching.
+// Disable Watchman for Windows
 config.resolver.useWatchman = false;
 
-// Configure asset and source extensions.
+// Configure asset and source extensions
 const { assetExts, sourceExts } = config.resolver;
 
 // SVG transformer is configured by withVibecodeMetro
@@ -30,7 +29,6 @@ config.resolver = {
   sourceExts: [...sourceExts, "svg"],
   useWatchman: false,
   resolveRequest: (context, moduleName, platform) => {
-    // Mock native-only modules on web
     if (platform === "web") {
       const nativeOnlyModules = [
         "react-native-pager-view",
@@ -39,30 +37,15 @@ config.resolver = {
       ];
 
       if (nativeOnlyModules.some((mod) => moduleName.includes(mod))) {
-        return {
-          type: "empty",
-        };
+        return { type: "empty" };
       }
     }
 
-    // Fallback to default resolution
     return context.resolveRequest(context, moduleName, platform);
   },
 };
 
-// Integrate NativeWind with the Metro configuration.
-module.exports = withNativeWind(withVibecodeMetro(config), { input: "./global.css" });
-=======
-
-const config = getDefaultConfig(__dirname);
-
-// Disable Watchman for Windows
-config.resolver.useWatchman = false;
-
-config.transformer = {
-  ...config.transformer,
-  unstable_allowRequireContext: true,
-};
-
-module.exports = config;
->>>>>>> 58221eae868fd8bae73d41fe87620bf89e8369d1
+// Integrate NativeWind + Vibecode
+module.exports = withNativeWind(withVibecodeMetro(config), {
+  input: "./global.css",
+});
