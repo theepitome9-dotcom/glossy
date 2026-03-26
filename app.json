@@ -8,7 +8,8 @@
     "icon": "./icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash-image.png",
+      "image": "./assets/splash.png"
+,
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
@@ -26,7 +27,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/splash-image.png",
+        "foregroundImage": "./assets/splash.png",
         "backgroundColor": "#000000"
       },
       "package": "com.glossy.paintingestimator",
