@@ -1,19 +1,10 @@
 {
-<<<<<<< HEAD
-  "name": "template-app-53",
-  "version": "1.0.0",
-  "packageManager": "npm@9.6.7",
-  "main": "index.ts",
-=======
   "name": "glossy",
   "version": "1.0.0",
-  "main": "expo-router/entry",
->>>>>>> 58221eae868fd8bae73d41fe87620bf89e8369d1
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
     "ios": "expo run:ios",
-<<<<<<< HEAD
     "web": "expo start --web",
     "check-deps": "npx expo install --check",
     "fix-deps": "npx expo install --fix"
@@ -135,53 +126,5 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "typescript": "~5.8.3"
   },
-  "private": true,
-  "expo": {
-    "doctor": {
-      "reactNativeDirectoryCheck": {
-        "exclude": [
-          "expo-av",
-          "react-native-markdown-display",
-          "@anthropic-ai/sdk",
-          "@vibecodeapp/sdk",
-          "expo-live-photo",
-          "expo-network-addons",
-          "openai",
-          "patch-package",
-          "sharp",
-          "uuid"
-        ]
-      }
-    }
-  },
-  "overrides": {
-    "expo-location": "16.0.0"
-  }
-=======
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~50.0.20",
-    "expo-build-properties": "0.11.1",
-    "expo-constants": "~15.4.6",
-    "expo-modules-core": "~1.11.14",
-    "expo-router": "~3.4.10",
-    "expo-system-ui": "~2.9.4",
-    "nativewind": "2.0.11",
-    "react": "18.2.0",
-    "react-native": "0.73.6"
-  },
-  "description": "## Deployment Readiness Assessment (2026-01-13)",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/theepitome9-dotcom/glossy.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/theepitome9-dotcom/glossy/issues"
-  },
-  "homepage": "https://github.com/theepitome9-dotcom/glossy#readme"
->>>>>>> 58221eae868fd8bae73d41fe87620bf89e8369d1
+  "private": true
 }
