@@ -1,0 +1,22 @@
++ exec gosu vibecode node node_modules/.bin/expo start --localhost
+env: load .env
+env: export EXPO_PUBLIC_VIBECODE_REVENUECAT_TEST_KEY EXPO_PUBLIC_VIBECODE_REVENUECAT_APPLE_KEY EXPO_PUBLIC_SUPABASE_URL EXPO_TOKEN EXPO_PUBLIC_VIBECODE_GROK_API_KEY EXPO_PUBLIC_VIBECODE_OPENAI_API_KEY EXPO_PUBLIC_VIBECODE_ANTHROPIC_API_KEY EXPO_PUBLIC_SUPABASE_ANON_KEY EXPO_PUBLIC_VIBECODE_GOOGLE_API_KEY EXPO_PUBLIC_EXPO_NO_CAPABILITY_SYNC EXPO_PUBLIC_API_URL EXPO_PUBLIC_VIBECODE_ELEVENLABS_API_KEY
+Starting project at /home/user/workspace
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+<<<<<<< HEAD
+iOS ./index.ts ░░░░░░░░░░░░░░░░  0.0% (0/1)
+ WARN  Attempted to import the module "/home/user/workspace/node_modules/@anthropic-ai/sdk/error" which is listed in the "exports" of "/home/user/workspace/node_modules/@anthropic-ai/sdk", however no match was resolved for this request (platform = ios). Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+ WARN  Attempted to import the module "/home/user/workspace/node_modules/@anthropic-ai/sdk/streaming" which is listed in the "exports" of "/home/user/workspace/node_modules/@anthropic-ai/sdk", however no match was resolved for this request (platform = ios). Falling back to file-based resolution. Consider updating the call site or asking the package maintainer(s) to expose this API.
+iOS Bundled 1587ms index.ts (3372 modules)
+iOS ./index.ts ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 91.9% (3010/3139)
+iOS Bundled 910ms index.ts (3341 modules)
+ LOG  [index] Project ID is:  0199bba7-37fe-7078-982f-fa0045e765c8
+ LOG  🚀 App starting - V2.3 - FEATURES UPDATE - 2026-01-20T13:22:39.511Z
+ LOG  [RevenueCat] Configuring with Test Store key
+ LOG  [RevenueCat] ✅ Initialized successfully
+ LOG  🚀 App starting - V2.3 - FEATURES UPDATE - 2026-01-20T13:22:39.554Z
+=======
+› Detected a change in metro.config.js. Restart the server to see the new results.
+>>>>>>> 58221eae868fd8bae73d41fe87620bf89e8369d1
