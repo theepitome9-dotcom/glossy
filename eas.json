@@ -1,7 +1,6 @@
 {
   "cli": {
     "version": ">= 16.17.4",
-    "appRoot": "."
   },
   "build": {
     "development": {
