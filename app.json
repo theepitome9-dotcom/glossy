@@ -1,5 +1,8 @@
-{
+﻿{
   "expo": {
+    "experiments": {
+      "reactNativeNewArchitecture": true
+    },
     "name": "Glossy Quotes",
     "slug": "glossy-quotes",
     "scheme": "glossy",
@@ -8,12 +11,11 @@
     "icon": "./icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png"
-,
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.vibecode.glossyquotes.4fdonu",
@@ -52,9 +54,7 @@
       "expo-video",
       "expo-web-browser"
     ],
-    "experiments": {
-      "typedRoutes": true
-    },
+    "typedRoutes": true,
     "extra": {
       "eas": {
         "projectId": "de4ec539-ec49-4112-b793-d95286f778fb"
