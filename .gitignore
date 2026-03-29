@@ -34,5 +34,4 @@ yarn-error.*
 *.tsbuildinfo
 
 # iOS & Android
-ios/
-android/
+
