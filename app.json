@@ -1,5 +1,4 @@
-﻿@'
-{
+﻿{
   "expo": {
     "experiments": {
       "reactNativeNewArchitecture": true
@@ -75,7 +74,3 @@
     }
   }
 }
-'@ | Set-Content C:\AppGlossy_new\app.json
-
-# Verify
-cat C:\AppGlossy_new\app.json
