@@ -1,4 +1,5 @@
-﻿{
+﻿@'
+{
   "expo": {
     "experiments": {
       "reactNativeNewArchitecture": true
@@ -45,7 +46,19 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-build-properties",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0",
+            "minSdkVersion": 24,
+            "ndkVersion": "26.1.10909125",
+            "kotlinVersion": "2.0.21"
+          }
+        }
+      ],
       "expo-asset",
       "expo-font",
       "expo-mail-composer",
@@ -62,3 +75,7 @@
     }
   }
 }
+'@ | Set-Content C:\AppGlossy_new\app.json
+
+# Verify
+cat C:\AppGlossy_new\app.json
