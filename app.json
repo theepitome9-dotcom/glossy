@@ -1,7 +1,7 @@
 ﻿{
   "expo": {
     "experiments": {
-      "reactNativeNewArchitecture": true
+      "reactNativeNewArchitecture": false
     },
     "name": "Glossy Quotes",
     "slug": "glossy-quotes",
@@ -15,7 +15,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-    "newArchEnabled": true,
+    "newArchEnabled": false,
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.vibecode.glossyquotes.4fdonu",
@@ -27,6 +28,7 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
+
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/splash.png",
@@ -41,9 +43,11 @@
         "READ_MEDIA_IMAGES"
       ]
     },
+
     "web": {
       "favicon": "./assets/favicon.png"
     },
+
     "plugins": [
       [
         "expo-build-properties",
@@ -66,7 +70,9 @@
       "expo-video",
       "expo-web-browser"
     ],
+
     "typedRoutes": true,
+
     "extra": {
       "eas": {
         "projectId": "de4ec539-ec49-4112-b793-d95286f778fb"

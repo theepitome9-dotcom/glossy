@@ -1,3 +1,3 @@
 module.exports = {
-  worklets: false,
+  worklet: false,
 };
