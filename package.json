@@ -9,7 +9,7 @@
     "web": "expo start --web",
     "check-deps": "npx expo install --check",
     "fix-deps": "npx expo install --fix",
-    "postinstall": "tailwindcss"
+    "postinstall": "powershell -Command \"Get-ChildItem -Recurse -Filter .babelrc | Remove-Item -Force\""
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
@@ -23,11 +23,6 @@
     "@react-native-community/datetimepicker": "8.4.1",
     "@react-native-community/netinfo": "11.4.1",
     "@react-native-community/slider": "4.5.6",
-    "@react-native-masked-view/masked-view": "0.3.2",
-    "@react-native-menu/menu": "^1.2.2",
-    "@react-native-picker/picker": "2.11.1",
-    "@react-native-segmented-control/segmented-control": "2.5.7",
-    "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/drawer": "^7.3.2",
     "@react-navigation/elements": "^2.3.8",
     "@react-navigation/material-top-tabs": "^7.2.3",
