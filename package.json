@@ -2,6 +2,14 @@
   "name": "glossy",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "check-deps": "npx expo install --check",
+    "fix-deps": "npx expo install --fix",
+    "postinstall": "tailwindcss"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
