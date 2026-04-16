@@ -59,10 +59,11 @@
 
   "extra": {
     "eas": {
-      "projectId": "de4ec539-ec49-4112-b793-d95286f778fb"
+      "projectId": "edb7b13e-edac-41ba-855f-048665ac4efb"
     }
   },
 
   "sdkVersion": "53.0.0",
   "platforms": ["ios", "android", "web"]
 }
+
